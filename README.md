@@ -1,11 +1,11 @@
 # Follow: CouchDB changes and db updates notifier for NodeJS
 
-[![build
-status](https://secure.travis-ci.org/iriscouch/follow.png)](http://travis-ci.org/iriscouch/follow)
+**Important Note**: this is a fork of the original, now unmaintained repository iriscouch/follow **
 
-Follow (upper-case *F*) comes from an internal Iris Couch project used in production for over a year. It works in the browser (beta) and is available as an NPM module.
+### Changes in this Fork
 
-    $ npm install follow
+- commented out logging `lib/stream.js` due to expensive util.inspect calls from logger arguments
+
 
 ## Example
 
